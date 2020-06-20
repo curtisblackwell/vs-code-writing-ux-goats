@@ -1,0 +1,34 @@
+{
+    "name": "writing-ux-goats",
+    "displayName": "Writing UX Goats Extension Pack",
+    "description": "An extension pack to improve your writing UX",
+    "version": "1.0.0",
+    "publisher": "curtisblackwell",
+    "engines": {
+        "vscode": "^1.44.2"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "galleryBanner": {
+        "color": "#D6D4DB",
+        "theme": "light"
+    },
+    "icon": "icon.png",
+    "homepage": "https://github.com/curtisblackwell/vs-code-writing-ux-goats",
+    "bugs": {
+        "url": "https://github.com/curtisblackwell/vs-code-writing-ux-goats/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/curtisblackwell/vs-code-writing-ux-goats"
+    },
+    "extensionPack": [
+        "editorconfig.editorconfig",
+        "annsk.alignment",
+        "oderwat.indent-rainbow",
+        "wayou.vscode-todo-highlight",
+        "kevinkyang.auto-comment-blocks",
+        "wmaurer.change-case"
+    ]
+}
